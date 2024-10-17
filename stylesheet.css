@@ -1,0 +1,341 @@
+* {
+    font-family: "DM Sans", sans-serif;
+}
+
+html {
+    background-color: #faf9f6;
+}
+
+/* nav bar */
+nav {
+    width: 61%;
+    position: relative;
+    left: 20%;
+}
+
+ul {
+    list-style-type: none;
+    padding: 30;
+    background-color: #172a4c;
+    overflow: hidden;
+}
+
+/* nav bar */
+li {
+    float: left;
+}
+
+/* nav bar */
+li a {
+    display: block;
+    color: #faf9f6;
+    padding: 15px 18px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+/* nav bar hover */
+li a:hover {
+    background-color: #faf9f6;
+    color: #172a4c;
+}
+
+/* title */
+h1 {
+    color: #172a4c;
+    font-size: 200px;
+    /*padding-left: 100px;*/
+    font-weight: 400;
+    margin: 0;
+    text-align:center;
+}
+
+h2 {
+    color: #faf9f6;
+}
+
+/* subtitles, basic features */
+h3 {
+    color: #faf9f6;
+    font-size: 40px;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+    background-color: #172a4c;
+    padding: 12px;
+    font-style: italic;
+    font-weight: 200;
+    letter-spacing: 3px;
+}
+
+h4 {
+    color: #faf9f6;
+}
+
+h5 {
+    color: #faf9f6;
+}
+
+h6 {
+    color: #faf9f6
+}
+
+/* paragraph, basic features */
+p {
+    padding: 17px;
+    color: #faf9f6;
+    font-size: 20px;
+
+}
+
+/* about section p specifications */
+#about p {
+    font-weight: 250;
+    max-width: 74%;
+    position: relative;
+    left: 23%;
+    background-color: #172a4c;
+    margin-bottom: 200px;
+    letter-spacing: 1px;
+    padding-left: 20px;
+}
+
+/* about heading */
+#about h3 {
+    padding-left: 295px;
+    margin-top:200px;
+}
+
+/* character set, inline */
+.letter-p {
+    display: inline;
+    font-size: 70px;
+    font-weight: 300;
+    margin-left: 10px;
+    letter-spacing: 1px;
+}
+
+.letter-p:hover {
+    background-color: #faf9f6;
+    color: #172a4c;
+}
+
+.number-p {
+    display: inline;
+    font-size: 50px;
+    font-weight: 400;
+    margin-left: 5px;
+}
+
+.special-p {
+    display: inline;
+    font-size: 50px;
+    font-weight: 400;
+    margin-left: 5px;
+}
+
+/* character set specifications */
+.p-characters {
+    background-color: #172a4c;
+    width: 75%;
+    text-align: center;
+    margin-bottom: 200px;
+    padding-top: 45px;
+    padding-bottom: 45px;
+}
+
+/* character set heading */
+#character-set h3 {
+    padding-left: 675px;
+}
+
+#examples h3 {
+    padding-left: 295px;
+}
+
+.simplicity {
+    background-color: #172a4c;
+    max-width: 750px;
+    padding: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.simplicity h2 {
+    font-size: 70px;
+    font-weight: 400;
+    font-style: normal;
+    text-align: right;
+    padding-right: 45px;
+    line-height: 10px;
+    letter-spacing: 1px;
+}
+
+.simplicity h4 {
+    font-size: 45px;
+    font-weight: 200;
+    font-style: normal;
+    text-align: right;
+    padding-right: 45px;
+    line-height: 0px;
+    letter-spacing: 1px;
+}
+
+.simplicity h5 {
+    font-size: 30px;
+    font-weight: 400;
+    font-style: normal;
+    text-align: right;
+    padding-right: 45px;
+    line-height: 40px;
+    letter-spacing: 1px;
+    padding-top: 30px;
+}
+
+.simplicity p {
+    font-size: 20px;
+    font-weight: 200;
+    text-align: right;
+    padding-right: 45px;
+    padding-left: 70px;
+}
+
+.chic {
+    background-color: #172a4c;
+    max-width: 750px;
+    padding: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.chic h2 {
+    font-size: 70px;
+    font-weight: 700;
+    font-style: italic;
+    text-align: center;
+    line-height: 10px;
+    letter-spacing: 1px;
+}
+
+.chic h4 {
+    font-size: 45px;
+    font-weight: 300;
+    font-style: normal;
+    text-align: center;
+    line-height: 0px;
+    letter-spacing: 1px;
+}
+
+.chic h5 {
+    font-size: 30px;
+    font-weight: 600;
+    font-style: normal;
+    text-align: center;
+    line-height: 40px;
+    letter-spacing: 1px;
+    padding-top: 30px;
+}
+
+.chic p {
+    font-size: 20px;
+    font-weight: 200;
+    font-style: italic;
+    text-align: center;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+
+.elegant {
+    background-color: #172a4c;
+    max-width: 750px;
+    padding: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.elegant h2 {
+    font-size: 60px;
+    font-weight: 100;
+    font-style: normal;
+    text-align: left;
+    padding-left: 45px;
+    line-height: 10px;
+    letter-spacing: 1px;
+}
+
+.elegant h4 {
+    font-size: 55px;
+    font-weight: 300;
+    font-style: normal;
+    text-align: left;
+    padding-left: 45px;
+    line-height: 0px;
+    letter-spacing: 1px;
+}
+
+.elegant h5 {
+    font-size: 30px;
+    font-weight: 150;
+    font-style: normal;
+    text-align: left;
+    padding-left: 45px;
+    line-height: 40px;
+    letter-spacing: 1px;
+    padding-top: 30px;
+}
+
+.elegant p {
+    font-size: 20px;
+    font-weight: 500;
+    text-align: left;
+    padding-right: 60px;
+    padding-left: 45px;
+}
+
+#contrast h3 {
+    padding-left: 775px;
+}
+
+.minimalist p {
+    text-align: center;
+    color: #172a4c;
+    font-size: 90px;
+    font-weight: 100;
+    letter-spacing: 2px;
+}
+
+.tasteful p {
+    text-align: center;
+    color: #172a4c;
+    font-size: 90px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    font-style: italic;
+}
+
+.polished p {
+    text-align: center;
+    color: #172a4c;
+    font-size: 90px;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
+.sophisticated p {
+    text-align: center;
+    color: #172a4c;
+    font-size: 90px;
+    font-weight: 750;
+    letter-spacing: 2px;
+    font-style: italic;
+}
+
+.sleek p {
+    text-align: center;
+    color: #172a4c;
+    font-size: 90px;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
